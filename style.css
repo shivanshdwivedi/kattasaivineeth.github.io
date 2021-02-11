@@ -179,12 +179,19 @@ section .title::after{
 .home .home-content .text-1{
     font-size: 27px;
 }
-.home .home-content .text-2{
-    font-size: 90px;
-    font-weight: 600;
-    margin-left: -3px;
-    color: BROWN;
+.home .home-content .transbox{
+  margin: 30px;
+  font-size: 100px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
 }
+.home .home-content .transbox .p{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
@@ -193,22 +200,7 @@ section .title::after{
     color: lightblue;
     font-weight: 500;
 }
-.home .home-content a{
-    display: inline-block;
-    background: darkblue;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid darkblue;
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-    color: darkblue;
-    background: none;
-}
+
 
 /* about section styling */
 .about .title::after{
@@ -255,6 +247,9 @@ section .title::after{
 }
 
 /* services section styling */
+.div .z {
+  text-align: center;
+}
 .services, .teams{
     color:#fff;
     background:url("images/4.jpg") no-repeat center ;
@@ -266,7 +261,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "CreATIVITY";
+    content: "Categories";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
