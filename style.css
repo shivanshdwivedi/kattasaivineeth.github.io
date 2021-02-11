@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: darkblue;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -177,30 +177,39 @@ section .title::after{
 .home .max-width{
     margin: auto 0 auto 30px;
 }
-.home .home-content .text-1{
-    font-size: 27px;
-}
+
 .home .home-content .transbox{
   margin: 30px;
-  font-size: 50px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.5;
-}
-.home .home-content .transbox .p{
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
+
+    background-color: #f1f1f12f;
+
 }
 
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
+.home .home-content .transbox .p{
+  margin: 5%;
+
+  color: #000000;
+  opacity: 1;
+  font-size: 150px ;
 }
-.home .home-content .text-3 span{
-    color: lightblue;
-    font-weight: 500;
+#home > div > div > a > div > p{
+  margin: 5%;
+
+  color: #000000;
+  opacity: 1;
+  font-size: 100px ;
 }
+#home > div > div > a > div > p > span{
+  font-size: 50px;
+}
+#home > div > div > a > div > p > span:nth-child(3){
+  font-size: 70px;
+}
+
+.home .home-content .transbox .p .span{
+  font-size: 30px;
+}
+
 
 
 /* about section styling */
