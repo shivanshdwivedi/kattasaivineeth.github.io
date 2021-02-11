@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: lightblue;
+    color: darkblue;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -180,9 +180,10 @@ section .title::after{
     font-size: 27px;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 90px;
     font-weight: 600;
     margin-left: -3px;
+    color: BROWN;
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -194,18 +195,18 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: lightblue;
+    background: darkblue;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid lightblue;
+    border: 2px solid darkblue;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: lightblue;
+    color: darkblue;
     background: none;
 }
 
@@ -231,25 +232,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: lightblue;
+    color: darkblue;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: lightblue;
+    background: darkblue;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid lightblue;
+    border: 2px solid darkblue;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: lightblue;
+    color: darkblue;
     background: none;
 }
 
@@ -277,7 +278,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: lightblue;
+    background: darkblue;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -287,7 +288,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: lightblue;
+    color: darkblue;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -317,18 +318,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: lightblue;
+    background: darkblue;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid lightblue;
+    border: 2px solid darkblue;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: lightblue;
+    color: darkblue;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -356,7 +357,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: lightblue;
+    background: darkblue;
 }
 .skills-content .right .html::before{
     width: 65%;
@@ -387,7 +388,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: lightblue;
+    background: darkblue;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -409,7 +410,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid lightblue;
+    border: 5px solid darkblue;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -425,7 +426,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid lightblue!important;
+    border: 2px solid darkblue!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -434,7 +435,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: lightblue!important;
+    background: darkblue!important;
 }
 
 /* contact section styling */
@@ -465,7 +466,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: lightblue;
+    color: darkblue;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -519,8 +520,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid lightblue;
-    background: lightblue;
+    border: 2px solid darkblue;
+    background: darkblue;
     color: #fff;
     outline: none;
     font-size: 20px;
@@ -530,9 +531,10 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: lightblue;
+    color: darkblue;
     background: none;
 }
+
 
 /* footer section styling */
 footer{
