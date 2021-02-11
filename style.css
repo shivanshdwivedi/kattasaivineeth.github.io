@@ -79,7 +79,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    position: fixed;
+    position: static;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
@@ -184,7 +184,7 @@ section .title::after{
   font-size: 50px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 .home .home-content .transbox .p{
   margin: 5%;
@@ -553,6 +553,18 @@ footer span a:hover{
     .home .max-width{
         margin-left: 0px;
     }
+}
+@media (min-width:601px)
+{
+  .home .home-content .transbox{
+    font-size: 60px;
+  }
+}
+@media (max-width:601px)
+{
+  .home .home-content .transbox{
+    font-size: 120px;
+  }
 }
 
 @media (max-width: 1104px) {
