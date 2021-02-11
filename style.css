@@ -555,18 +555,7 @@ footer span a:hover{
         margin-left: 0px;
     }
 }
-@media (min-width:601px)
-{
-  .home .home-content .transbox{
-    font-size: 60px;
-  }
-}
-@media (max-width:601px)
-{
-  .home .home-content .transbox{
-    font-size: 120px;
-  }
-}
+
 
 @media (max-width: 1104px) {
     .about .about-content .left img{
@@ -610,7 +599,7 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
-    .home .home-content .text-2{
+    .home .home-content .transbox .p{
         font-size: 70px;
     }
     .home .home-content .text-3{
@@ -649,7 +638,7 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-    .home .home-content .text-2{
+    .home .home-content .transbox .p{
         font-size: 60px;
     }
     .home .home-content .text-3{
@@ -664,7 +653,7 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
-    .home .home-content .text-2{
+    .home .home-content .transbox .p{
         font-size: 50px;
     }
     .home .home-content .text-3{
