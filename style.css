@@ -256,7 +256,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background:url("images/4.jpg") no-repeat center ;
 }
 .services .title::before,
 .teams .title::before{
@@ -265,7 +265,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "For Essay Competition";
+    content: "CreATIVITY";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
