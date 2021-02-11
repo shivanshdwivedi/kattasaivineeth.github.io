@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: lightblue;
+    background: darkblue;
 }
 .navbar .max-width{
     display: flex;
@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: darkblue;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -521,7 +521,7 @@ section .title::after{
     width: 100%;
     height: 100%;
     border: 2px solid darkblue;
-    background: darkblue;
+    background: white;
     color: #fff;
     outline: none;
     font-size: 20px;
@@ -534,6 +534,7 @@ section .title::after{
     color: darkblue;
     background: none;
 }
+
 
 
 /* footer section styling */
