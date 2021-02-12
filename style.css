@@ -660,11 +660,11 @@ footer span a:hover{
         font-size: 60px;
     }
     #home > div > div > a > div > p > span{
-      font-size: 25px;
+      font-size: 20px;
 
     }
       #home > div > div > a > div > p > span:nth-child(3){
-        font-size: 25px;
+        font-size: 20px;
     }
     .home .home-content a{
         font-size: 20px;
