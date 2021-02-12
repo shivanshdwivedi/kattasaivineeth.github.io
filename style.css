@@ -99,7 +99,7 @@ section .title::after{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-  background: url("images/logo.png") no-repeat center;
+  
 }
 .navbar .logo a span{
     color: darkblue;
