@@ -638,6 +638,10 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .abou .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -703,6 +707,17 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
+    .abou .about-content .column{
+        width: 100%;
+    }
+    .abou .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .abou .about-content .right{
+        flex: 100%;
+    }
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -748,6 +763,10 @@ footer span a:hover{
         font-size: 15px;
     }
     .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .abou .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
     }
