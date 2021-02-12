@@ -99,7 +99,7 @@ section .title::after{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-  
+
 }
 .navbar .logo a span{
     color: darkblue;
@@ -616,7 +616,11 @@ footer span a:hover{
     #home > div > div > a > div > p{
         font-size: 70px;
     }
-    .home .home-content .text-3{
+    #home > div > div > a > div > p > span{
+      font-size: 35px;
+
+    }
+    #home > div > div > a > div > p > span:nth-child(3){
         font-size: 35px;
     }
     .home .home-content a{
@@ -655,8 +659,12 @@ footer span a:hover{
     #home > div > div > a > div > p{
         font-size: 60px;
     }
-    .home .home-content .text-3{
-        font-size: 32px;
+    #home > div > div > a > div > p > span{
+      font-size: 25px;
+
+    }
+      #home > div > div > a > div > p > span:nth-child(3){
+        font-size: 25px;
     }
     .home .home-content a{
         font-size: 20px;
@@ -670,8 +678,12 @@ footer span a:hover{
     #home > div > div > a > div > p{
         font-size: 50px;
     }
-    .home .home-content .text-3{
-        font-size: 27px;
+    #home > div > div > a > div > p > span{
+      font-size: 15px;
+
+    }
+    #home > div > div > a > div > p > span:nth-child(3){
+        font-size: 15px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
