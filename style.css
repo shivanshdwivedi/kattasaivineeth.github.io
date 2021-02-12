@@ -38,7 +38,19 @@ section{
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
+.abou, .services, .skills, .teams, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
 .about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.abou .about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
@@ -183,7 +195,7 @@ section .title::after{
 .home .home-content .transbox{
   margin: 40px;
 
-    background-color: #835C3B4f ;
+    background-color: #8B00007f ;
 
 }
 
@@ -200,7 +212,7 @@ section .title::after{
   color: white;
   opacity: 1;
   font-size: 90px ;
-  font-weight: : 500px;
+  font-weight: : 600;
 }
 #home > div > div > a > div > p > span{
   font-size: 30px;
@@ -214,6 +226,8 @@ section .title::after{
 .home .home-content .transbox .p .span{
   font-size: 30px;
 }
+
+
 
 
 
@@ -261,13 +275,57 @@ section .title::after{
     background: none;
 }
 
+/* about section styling */
+.abou .title::after{
+    content: "Categories";
+}
+.abou .about-content .left{
+    width: 45%;
+}
+.abou .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.abou .about-content .right{
+    width: 55%;
+}
+.abou .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.abou .about-content .right .text span{
+    color: darkblue;
+}
+.abou .about-content .right p{
+    text-align: justify;
+}
+.abou .about-content .right a{
+    display: inline-block;
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid darkblue;
+    transition: all 0.3s ease;
+}
+.abou .about-content .right a:hover{
+    color: darkblue;
+    background: none;
+}
+
 /* services section styling */
 .div .z {
   text-align: center;
 }
 .services, .teams{
-    color:#fff;
-    background:url("images/3.jpg") no-repeat center ;
+    color:crimson;
+    background:url("images/4.jpg") no-repeat center ;
 }
 .services .title::before,
 .teams .title::before{
@@ -275,7 +333,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background:;
     content: "Categories";
 }
 .services .serv-content .card{
@@ -288,7 +346,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: darkblue;
+    background: white;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -298,7 +356,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: darkblue;
+    color: crimson;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -308,6 +366,10 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services .serv-content .card .text .span{
+    color:crimson;
+
 }
 
 /* skills section styling */
@@ -664,10 +726,10 @@ footer span a:hover{
 
     }
       #home > div > div > a > div > p > span:nth-child(3){
-        font-size: 20px;
+        font-size: 23px;
     }
     .home .home-content a{
-        font-size: 20px;
+        font-size: 25px;
     }
     .services .serv-content .card{
         width: 100%;
