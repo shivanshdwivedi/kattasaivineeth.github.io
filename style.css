@@ -94,7 +94,7 @@ section .title::after{
     position: static;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 5px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
@@ -148,6 +148,7 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
+
 }
 .scroll-up-btn{
     position: static;
@@ -772,6 +773,7 @@ footer span a:hover{
     #home > div > div > a > div > p > span:nth-child(3){
         font-size: 15px;
     }
+
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
