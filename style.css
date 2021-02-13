@@ -114,7 +114,7 @@ section .title::after{
 
 }
 .navbar .logo a span{
-    color: darkblue;
+    color: white;
     transition: all 0.3s ease;
 
 
