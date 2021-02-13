@@ -144,21 +144,21 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: black;
     font-size: 23px;
     cursor: pointer;
     display: none;
 }
 .scroll-up-btn{
-    position: fixed;
+    position: static;
     height: 45px;
     width: 42px;
-    background: lightblue;
+    background: black;
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: black;
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -208,7 +208,7 @@ section .title::after{
   font-size: 150px ;
 }
 #home > div > div > a > div > p{
-  
+
   color: white;
   opacity: 1;
   font-size: 90px ;
@@ -733,6 +733,14 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+
     #home > div > div > a > div > p{
         font-size: 60px;
     }
@@ -755,7 +763,9 @@ footer span a:hover{
     #home > div > div > a > div > p{
         font-size: 50px;
     }
-    #home > div > div > a > div > p > span{
+    #home > div > div > a > div > p
+
+     span{
       font-size: 15px;
 
     }
