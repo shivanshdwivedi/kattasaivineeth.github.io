@@ -825,6 +825,12 @@ footer span a:hover{
     .menu-btn i.active:before{
         content: "\f00d";
     }
+    .home{
+        display: flex;
+        background: url("images/8.jpg") ;
+        background-position: center;
+        background-size: 700px 400px;
+    }
 
     #home > div > div > b > div > p{
         font-size: 60px;
@@ -856,6 +862,12 @@ footer span a:hover{
     }
     #home > div > div > b > div > p > span:nth-child(3){
         font-size: 15px;
+    }
+    .home{
+        display: flex;
+        background: url("images/8.jpg") ;
+        background-position: center;
+        background-size: 500px 300px;
     }
 
     .about .about-content .right .text,
