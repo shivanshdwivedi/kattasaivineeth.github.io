@@ -109,7 +109,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 30px 0;
     background: darkblue;
 }
 .navbar .max-width{
@@ -258,12 +258,8 @@ section .title::after{
 
 
 /* about section styling */
-.about .title::after{
-    content: "who are we";
-}
-.about .about-content .left{
-    width: 45%;
-}
+
+
 .about .about-content .left img{
     height: 400px;
     width: 400px;
@@ -345,7 +341,7 @@ section .title::after{
     background: none;
 }
 
-/* Registration section styling */
+/* about section styling */
 .abo .title::after{
     content: "Categories";
 }
@@ -388,6 +384,7 @@ section .title::after{
     color: darkblue;
     background: none;
 }
+
 
 /* services section styling */
 .div .z {
@@ -767,7 +764,7 @@ footer span a:hover{
         display: flex;
         background: url("images/8.jpg") ;
         background-position: center;
-        background-size: 700px 400px;
+        background-size: 900px 600px;
     }
 
     #home > div > div > b > div > p{
@@ -785,6 +782,10 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    #mapDiv > div > div > iframe
+    {
+      size:80px 0;
     }
 }
 

@@ -233,7 +233,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who are we";
+    content: "";
 }
 .about .about-content .left{
     width: 45%;
